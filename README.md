@@ -1,4 +1,4 @@
-# appliedAI
+# appliedAI: a NLP + LLM/AI project
 Individual project completed for the module Applied AI under NTU MSc Information Systems
 
 This project experimented with a hybrid approach for identifying dataset mentions in scientific literature, combining rule-based methods, feature engineering, SciBERT embeddings with assistance from LLMs for verification of ambiguous cases. The automatic detection of dataset references is crucial for tracking data usage, enhancing reproducibility, and properly attributing dataset creators. The solution is a multi-stage pipeline that identifies potential dataset mentions through a combination of named entity recognition (NER), pattern matching or pattern-based extraction, classification of candidates using contextual features, neural embeddings, and large language models to verify ambiguous cases via queries. The current approach implements batch processing and checkpointing for resilience, allowing processing of large document collections. 
